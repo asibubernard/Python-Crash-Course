@@ -1,0 +1,7 @@
+__pycache__/*
+*.conf
+*.log
+*.db
+*.tmp
+*idea
+*.python-version
