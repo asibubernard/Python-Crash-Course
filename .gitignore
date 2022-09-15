@@ -4,4 +4,5 @@ __pycache__/
 *.db
 *.tmp
 *idea
+*.idea
 *.python-version
