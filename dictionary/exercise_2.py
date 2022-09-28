@@ -7,5 +7,5 @@ person = {
 
 for key, value in person.items():
     print("key      :        Value")
-    print(key + "   :      " + value)
+    print(key + "   :      " + str(value))
 

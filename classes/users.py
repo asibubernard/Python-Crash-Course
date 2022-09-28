@@ -32,20 +32,22 @@ class User():
     def __repr__(self):
         return (f'{self.__class__.__name__}('
                 f'{self.first_name!r}, {self.last_name!r}, {self.age!r})')
-                
+               
 
-user = User('ebo', 'asibu', 29)
-print("\n " + user.first_name.title() + " ist " + str(user.age) + " Jahre.")
-user.greet_user()
-user.increment_login_attempts()
-user.increment_login_attempts()
-user.increment_login_attempts()
-user.describe_user()
-user.reset_login_attempts()
-user.describe_user()
+# user = User('ebo', 'asibu', 29)
+# print("\n " + user.first_name.title() + " ist " + str(user.age) + " Jahre.")
+# user.greet_user()
+# user.increment_login_attempts()
+# user.increment_login_attempts()
+# user.increment_login_attempts()
+# user.describe_user()
+# user.reset_login_attempts()
+# user.describe_user()
 
 
-user_2 = User('ato', 'asibu', 18)
-print("\n " + user_2.first_name.title() + " ist " + str(user_2.age) + " Jahre.")
-user_2.greet_user()
-user_2.describe_user()
+# user_2 = User('ato', 'asibu', 18)
+# print("\n " + user_2.first_name.title() + " ist " + str(user_2.age) + " Jahre.")
+# user_2.greet_user()
+# user_2.describe_user()
+
+

@@ -3,6 +3,7 @@ Car: This car class stores information about the kind of car and
 summaries information with a method
 """
 
+
 class Car():
     """A simple attempt to represent a car."""
 
@@ -37,19 +38,19 @@ class Car():
         self.odometer_reading += miles
 
         
-my_used_car = Car('subaru', 'outback', 2011)
-print(my_used_car.get_descriptive_name())
+# my_used_car = Car('subaru', 'outback', 2011)
+# print(my_used_car.get_descriptive_name())
 
-my_used_car.update_odometer(23800)
-my_used_car.read_odometer()
+# my_used_car.update_odometer(23800)
+# my_used_car.read_odometer()
 
-my_used_car.increment_odometer(100)
-my_used_car.read_odometer()
+# my_used_car.increment_odometer(100)
+# my_used_car.read_odometer()
 
 
-my_new_car = Car('audi', 'a4', 2022)
-my_new_car.update_odometer(-1)
+# my_new_car = Car('audi', 'a4', 2022)
+# my_new_car.update_odometer(-1)
 # my_new_car.odometer_reading = 232323
-print(my_new_car.get_descriptive_name())
-my_new_car.read_odometer()
+# print(my_new_car.get_descriptive_name())
+# my_new_car.read_odometer()
 
