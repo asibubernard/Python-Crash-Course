@@ -1,6 +1,7 @@
 """ CREATE OPERATION """
 """ Creating a dictionary in a list """
-print("Creating a list of dictionary objects")
+
+print("Creating a list of objects")
 persons = []
 
 # repeat in the range of 5
@@ -80,3 +81,4 @@ for alien in aliens[0:3]:
 print(...)
 
 """ DELETE OPERATION """
+

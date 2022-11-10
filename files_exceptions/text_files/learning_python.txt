@@ -1,0 +1,7 @@
+In Python you store collection of items in a list.
+In Python you can store a key and value pair in Dictionaries.
+In Python you can use if-else conditional clauses to make decisions.
+In Python you can collect input from users using INPUT() function.
+
+
+

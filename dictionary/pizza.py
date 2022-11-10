@@ -5,7 +5,8 @@ pizza = {
 }
 
 # summarize the order
-print("You ordered a " + pizza['crust'] + "-crust pizaa " + "with the following toppings:")
+print("You ordered a " + pizza['crust'] + "-crust pizaa " 
+      + "with the following toppings:")
 
 for topping in pizza['toppings']:
     print("\t" + topping)

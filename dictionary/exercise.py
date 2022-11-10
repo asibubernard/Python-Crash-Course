@@ -53,6 +53,7 @@ favorite_places = {
 
 for person, places in favorite_places.items():
     print("\n", person.title(), "favorite places are:")
-    best_places = places['first_place'] + ", " + places['second_place'] + ", " + places['third_place']
+    best_places = places['first_place'] + ", " + places['second_place']
+    + ", " + places['third_place']
     print(best_places.title())
 
